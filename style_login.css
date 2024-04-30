@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #034BAD; 
+}
+
+#login{
+    display: grid;
+    place-items: center; 
+    transform: translate(0,30%);
+}
+
+#campos-login {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+       
+
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+#entrar {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color:#034BAD;
+    font-family: "Inter", sans-serif; 
+    font-size: medium;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+#entrar:hover{
+    color: white;
+    background-color: #D9D9D9;
+    transition-duration: 0.5s;
+}
+
+
+#title {
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+
+
+label{
+    font-family: "Inter", sans-serif;
+    color: #034BAD;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    background-color: #D9D9D9;
+    margin-top: 5px;
+    border-style: none;
+    
+}
+#email{
+    margin-bottom: 20px;
+}
+
+
+#cadastre-se p {
+    font-family: "Inter", sans-serif;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#cadastre-se a{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#cadastre-se a:hover{
+    color:#D9D9D9;
+}
